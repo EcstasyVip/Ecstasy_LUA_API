@@ -18,9 +18,5 @@ local function broll(cmd)
     engine.set_view_angles(vec)
 end
 
-local function painer()
-    render.text(100, 100, color.new(255, 255, 255, 255), "First lua ever hello!")
-end
 
 cheat.register_callback("createmove", broll)
-cheat.register_callback("on_paint", painer)
