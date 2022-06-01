@@ -1,5 +1,4 @@
---ecstasy.vip render functions example with text and font :) by rosewater
-render.create_font("C:/windows/fonts/gabriola.ttf", 18, "CustomFont1")
+--reflect.codes render functions example with text and font :) by rosewater
 
 local function paintingdrawing()
 	
@@ -16,8 +15,6 @@ local function paintingdrawing()
 	render.filled_rect_gradient(10, 300, 100, 100, color.new(255,255,255,255), color.new(0,0,0,255), color.new(0,0,0,255), color.new(255,255,255,255))
 
 	render.text(10, 450, color.new(255,255,255,255), 0, "mainfont", "This is written with main font")
-
-	render.text(10, 500, color.new(255,255,255,255), 0, "CustomFont1", "This is written with custom font ecstasy.vip Lua:D")
 
 	render.filled_rect(10, 600, 50, 50, color.new(255,0,255,255), 0)
 
